@@ -1,0 +1,84 @@
+/* CSS Document */
+*{
+	margin:0 auto;
+	padding:0;	
+}
+header{
+	background: rgba(125, 140, 147, 6);
+	height: 100px;
+	position: relative;
+	border-bottom:5px solid rgba(27, 172, 219, 1);	
+}
+body{
+	background-color: #ffg;
+}
+nav{
+	position: absolute;
+height: 53px;
+background: rgba(212, 232, 245, 1);
+top: 32px;
+left: 52px;
+border-radius: 12px;
+overflow: hidden;
+box-shadow: 3px 15px 4px -12px #335;
+}
+nav ul{
+	list-style:none;	
+}
+
+nav ul li{
+	outline:none;
+	float:left;
+	display:inline-block;	
+}
+nav ul li a{
+	outline:none;
+	text-decoration:none;
+	color:#333;
+	display: inline-block;
+	line-height:50px;
+	padding:0px 30px;
+	transition: all 500ms;
+}
+nav ul li .active, nav ul li a:hover{
+	background:rgba(27, 172, 219, 0.5);
+	color: #fff;
+	text-shadow: -4px 4px 5px #222;
+}
+#content{
+	padding-left:16px;
+	padding-top: 25px;	
+}
+.bs-example{
+    	margin: 30px;
+    }
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	background: rgba(110, 137, 153, 2);
+	height: 70px;
+	border-top:5px solid rgba(27, 172, 219, 1);	
+}
+.logout{
+	position: absolute;
+	right: 50px;
+	top:25px;
+	border-radius:0 10px 10px 0;
+	overflow: hidden;
+}
+.logout a{
+	text-decoration: none;
+	color: #fff;
+	line-height:50px;
+	display:block;
+	padding:0 20px;
+	transition: all 500ms;
+}
+.logout a:hover{
+	color:#333;
+	font-weight:bold;
+}
+.first_row{
+	background-color: rgba(212, 232, 245, 1);
+}

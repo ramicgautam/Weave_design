@@ -1,0 +1,31 @@
+.footers {
+    background-color: #C5BEB0;
+    margin: 0 auto;
+    max-width: 1150px;
+    /*padding: 0 0 110px;*/
+    padding-left: 245px;
+    padding-right: 245px;
+    /*padding-top: 500px;*/
+    display: block;
+    border-left: 38px solid white;
+    border-top: 100px solid white;
+    max-height: 20px;
+}
+.footers .phone {
+    line-height: 21px;
+    font-size: 18px;
+    float: left;
+    /*padding-right: 15px;*/
+}.footers .telephone {
+    color: #333;
+}
+.footers a{
+	transition: color 0.2s;
+}
+.medium {
+    font-weight: bold;
+}
+a {
+    color: #004898;
+    text-decoration: none;
+}
